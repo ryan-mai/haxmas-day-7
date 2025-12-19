@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const treeWidth = treeSvg.offsetWidth;
         for (let i = 0; i < daysTill; i++) {
             const randOrnament = ornaments[Math.floor(Math.random() * 12)];
-            decorations.innerHTML += `<img src="/assets/${randOrnament}" class="ornament" id="ornament${i}">`;
+            decorations.innerHTML += `<img src="./assets/${randOrnament}" class="ornament" id="ornament${i}">`;
             
             const ornament = document.getElementById("ornament" + i);   
             ornament.style.position = "absolute";
