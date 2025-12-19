@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c5d1eb;
+}
+
+.mountains-of-christmas-regular {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0;
+}
+
+h2 {
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BNCE" 0,
+        "INFM" 0,
+        "SPAC" 0;
+    margin: 0;
+}
+
+#header {
+    text-align: center;
+}
+
+#header h1 {
+    margin-top: 3rem;
+    font-size: 4rem;
+    color: #da2c38;
+}
+
+#header h2 {
+    margin-top: 8px;
+    color: #226f54;
+}
+
+.container {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#tree {
+    position: relative;
+}
+
+.ornament {
+    height: 60px;
+    width: auto;
+    position: absolute;
+    z-index: 999;
+}
+
+#tree-svg {
+    height: 600px;
+    width: auto;
+    z-index: 0;
+}
